@@ -14,9 +14,8 @@ Summary: run tests in isolated forked subprocesses
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/pytest-forked-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/pytest-forked-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/pytest-forked-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/pytest-forked-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/pytest-forked-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/pytest-forked-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pytest-forked-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pytest-forked-feedstock)
 
 Current release info
 ====================
