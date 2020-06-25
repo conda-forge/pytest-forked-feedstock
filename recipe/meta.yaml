@@ -17,11 +17,11 @@ requirements:
   host:
     - python
     - pip
-    - pytest >=2.6.0
+    - pytest >=3.1.0
     - setuptools_scm
   run:
     - python
-    - pytest >=2.6.0
+    - pytest >=3.1.0
 
 test:
   imports:
@@ -29,7 +29,7 @@ test:
   files:
     - dummy_test.py
   commands:
-    - py.test --forked dummy_test.py  # [not win]
+    - pytest --forked dummy_test.py  # [not win]
 
 about:
   home: https://github.com/pytest-dev/pytest-forked
