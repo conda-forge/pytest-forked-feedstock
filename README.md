@@ -5,7 +5,7 @@ Home: https://github.com/pytest-dev/pytest-forked
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: run tests in isolated forked subprocesses
 
