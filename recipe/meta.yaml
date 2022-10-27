@@ -10,7 +10,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
@@ -21,6 +21,7 @@ requirements:
   run:
     - python >=3.6
     - pytest >=3.10
+    - py
 
 test:
   imports:
