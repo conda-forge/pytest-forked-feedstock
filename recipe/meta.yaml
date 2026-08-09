@@ -1,16 +1,16 @@
-{% set version = "1.6.0" %}
+{% set version = "1.7.5" %}
 
 package:
   name: pytest-forked
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/p/pytest-forked/pytest-forked-{{ version }}.tar.gz
-  sha256: 4dafd46a9a600f65d822b8f605133ecf5b3e1941ebb3588e943b4e3eb71a5a3f
+  url: https://pypi.org/packages/source/p/pytest-forked/pytest_forked-{{ version }}.tar.gz
+  sha256: 00f2bee51612f29b8e6b81eed2c3b2975e824c2693394f5bdaf7a1369078ba5f
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
